@@ -18,7 +18,7 @@
     <header class="header">
         <nav class="navigat">
             <div class="header-logo-img">
-                <a class="logo" href="#"><svg class="team-block-svg" width="40" height="40">
+                <a class="logo" href="#"><svg class="team-block-svg" width="50" height="50">
                         <use href="./src/img/icon.svg#icon-fitness_center"></use>
                     </svg>
                 </a>
@@ -53,15 +53,15 @@
         <div class="main-text">
 
             <div class="image-container">
-                <img class="main-foto"
-                    src="./src/img/99px_ru_wallpaper_317955_devushka_stoit_v_sportzale-Photoroom.png-Photoroom.png"
-                    alt="">
+                <img class="main-foto" src="./src/girl.png" alt="">
             </div>
             <div class="text-content">
                 <h1 class="main-title">Твій персональний тренер</h1>
                 <h3 class="main-sub">онлайн супровід</h3>
-                <button type="button" class="but-book">Записатися</button>
-                <button type="button" class="but-forme">Обрати послугу</button>
+                <div class="button-section">
+                    <button type="button" class="but-book">Записатися</button>
+                    <button type="button" class="but-forme">Обрати послугу</button>
+                </div>
             </div>
         </div>
     </section>
@@ -182,18 +182,31 @@
     </section>
     <section class="answer">
         <div class="answer-class">
-            <h2 class="answer-titile">Answers to questions</h2>
+            <h3 class="answer-titile">Answers to questions</h3>
             <ul>
-                <li>How the training goes</li>
-                <li>Where do the trainings take place?</li>
-                <li>What is the price of training?</li>
-
+                <details class="datal-answer">
+                    <summary>Де проходять тренування?</summary>
+                    <div class="answer-qution">
+                        Тренування проходять онлайн
+                    </div>
+                </details>
+                <details class="datal-answer">
+                    <summary>Яка ціна тренування?</summary>
+                    <div class="answer-qution">
+                        Ціна 80 грн за 1 тренування
+                    </div>
+                </details>
+                <details class="datal-answer">
+                    <summary>Скільки часу триває тренування ?</summary>
+                    <div class="answer-qution">
+                        Тренування триває 1 годину
+                    </div>
+                </details>
             </ul>
-
         </div>
 
     </section>
-    <section class="reviews">
+    <section class="reviews container">
         <div class="reviews-class">
             <h2 class="reviews-titile">Reviews</h2>
 
