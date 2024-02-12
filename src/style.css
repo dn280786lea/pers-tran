@@ -60,6 +60,8 @@ p {
   font-size: 24px;
   display: flex;
   align-items: center;
+  margin-right: 70px;
+  text-decoration: none;
 }
 .navigat {
   display: flex;
@@ -71,11 +73,7 @@ p {
   gap: 8px;
   padding: 17px 0;
 }
-.header-page {
-  margin-right: 70px;
-  text-decoration: none;
-  color: black;
-}
+
 .header-icons {
   display: flex;
   list-style: none;
@@ -128,7 +126,9 @@ p {
   margin-bottom: 20px;
   line-height: 1.5;
 }
-
+.main-header-icon {
+  fill: white;
+}
 .but-book {
   border: none;
   border-radius: 15px;
