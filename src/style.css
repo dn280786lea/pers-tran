@@ -143,7 +143,7 @@ p {
 }
 
 .but-book {
-   font-weight: 400;
+  font-weight: 400;
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -154,26 +154,17 @@ p {
   height: 50px;
   line-height: normal;
   background-color: #cdae5d;
-  margin: 0;
   width: 240px;
   margin-left: 220px;
   margin-top: 100px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.bt-book:hover
-.bt-book:focus{
-  background: none;
-    border: 1px solid #cdae5d;
-    color: #fff;
-    transition-duration: .5s;
-  }
-
-
-.but-forme:hover
-.but-forme:focus{
-  background-color:#cdae5d;
-
+.but-book :hover{
+  background:black;
+  color:#fff;
 }
+
 .but-forme {
    font-weight: 400;
   border: none;
@@ -188,6 +179,12 @@ p {
   background: rgba(205, 174, 93, 0.188);
   margin-left: 50px;
   width: 240px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.but-forme:hover{
+  background:#cdae5d;
+  color:#fff;
+
 }
 .numbers-section {
   margin-bottom: 20px;
@@ -316,9 +313,10 @@ p {
 }
 
 .portfolio-link_list {
-  padding: 32px 16px;
+  padding: 15px 100px;
   border-top: none;
   margin-bottom: 8px;
+  text-align: center;
 }
 .heading-button {
   background-color: #f4f4fd;
@@ -334,6 +332,7 @@ p {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .heading-button:hover,
 .heading-button:focus {
@@ -385,14 +384,13 @@ p {
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: rgb(222, 220, 220);
+  background-color: rgba(222, 220, 220, 0.7); 
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: grey;
+  color: rgb(9, 8, 8);
   padding: 40px 32px;
-  opacity: 0, 8;
-  filter: alpha(opacity=40);
 }
 
 .team-heading {
