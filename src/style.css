@@ -503,6 +503,8 @@ details[open] div {
   padding: 10px;
   margin-left: 20px;
   margin-top: 40px;
+  background-color: rgb(211, 205, 205);
+  border-radius: 36px;
 }
 
 .slider-track {
@@ -524,16 +526,9 @@ details[open] div {
   font-weight: 200;
   font-size: 14px;
 }
-.prev {
-  background: #cdae5d;
-  border: none;
-  cursor: pointer;
-}
+.prev,
 .next {
   background: #cdae5d;
   border: none;
   cursor: pointer;
-}
-.slider-arrows {
-  margin-left: 25px;
 }
