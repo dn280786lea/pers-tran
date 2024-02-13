@@ -508,13 +508,12 @@ details[open] div {
 .slider-track {
   display: flex;
   flex-direction: row;
-  gap: 74px;
   margin-top: 20px;
 }
 .slide:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .reviews-name {
   font-weight: 600;
