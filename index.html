@@ -15,79 +15,124 @@
 </head>
 
 <body>
-    <header class="header container">
-        <nav class="navigat">
-            <div class="header-logo-img">
-                <a class="logo" href="#"><svg class="team-block-svg" width="50" height="50">
-                        <use href="./src/img/icon.svg#icon-fitness_center"></use>
-                    </svg>
-                </a>
-            </div>
+    <nav class="navigat">
+        <div class="header-logo-img">
+            <a class="logo" href="#"><svg class="team-block-svg" width="50" height="50">
+                    <use href="./src/img/icon.svg#icon-fitness_center"></use>
+                </svg>
+            </a>
+        </div>
 
-            <div class="navigate-menu">
-                <a class="header-page" href="#about">Про мене</a>
-                <a class="header-page" href="#services">Послуги</a>
-                <a class="header-page" href="#faq">FAQ</a>
-                <a class="header-page" href="#reviews">Відгуки</a>
-                <a class="header-page" href="#contact">Контакти</a>
-            </div>
-            <div>
-                <ul class="header-icons">
-                    <li class="icon-img"> <a href=""><svg class="main-header-icon" width="36" height="36">
-                                <use href="./src/img/icon.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
+        <div class="navigate-menu">
+            <a class="header-page" href="#about">Про мене</a>
+            <a class="header-page" href="#services">Послуги</a>
+            <a class="header-page" href="#faq">FAQ</a>
+            <a class="header-page" href="#reviews">Відгуки</a>
+            <a class="header-page" href="#contact">Контакти</a>
+        </div>
+        <div>
+            <ul class="header-icons">
+                <li class="icon-img"> <a href=""><svg class="main-header-icon" width="36" height="36">
+                            <use href="./src/img/icon.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icon-img"> <a href=""><svg class="main-header-icon" width="36" height="36">
+                            <use href="./src/img/icon.svg#icon-telegram1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="mob-menu js-menu-container" id="mobile-menu">
+        <nav class="header-nav-mob mob-container">
+            <a class="logo" href="#"><svg class="team-block-svg" width="24" height="24">
+                    <use href="./src/img/icon.svg#icon-fitness_center"></use>
+                </svg>
+            </a>
+            <div class="mb-menu-list">
+                <button class="close-menu-bt js-close-menu" type="button">
+                    <svg class="button_icon" width="20" height="20">
+                        <use href="./src/img/icon.svg#icon-cross"></use>
+                    </svg>
+                </button>
+                <ul class="mb-list list">
+                    <li class="mob-menu-item">
+                        <a class="header-page link active js-menu-link" href="#about">Про мене</a>
                     </li>
-                    <li class="icon-img"> <a href=""><svg class="main-header-icon" width="36" height="36">
-                                <use href="./src/img/icon.svg#icon-telegram1"></use>
-                            </svg>
-                        </a>
+                    <li class="mob-menu-item">
+                        <a class="header-page link actie js-menu-link" href="#services">Послуги</a>
+                    </li>
+                    <li class="mob-menu-item">
+                        <a class="header-page link active js-menu-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="mob-menu-item">
+                        <a class="header-page link active js-menu-link" href="#reviews">Відгуки</a>
+                    </li>
+                    <li class="mob-menu-item">
+                        <a class="header-page link active js-menu-link" href="#contact">Контакти</a>
                     </li>
                 </ul>
             </div>
-        </nav>
+    </div>
+    <div>
+    </div>
+    </nav>
+    <button class="header-bt js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+        <svg class="" width="24" height="24">
+            <use href="./src/img/icon.svg#icon-gg_menu-left1"></use>
+        </svg>
+    </button>
     </header>
-    <section class="section-main">
-        <div class="main-text">
 
+
+    <section class="section-main container">
+        <div class="woman-main">
             <div class="image-container">
-                <img class="main-foto" src="./src/girl.png" alt="">
+                <img class="main-foto" src="./src/girl.png" alt="fitness girl">
             </div>
-            <div class="text-content">
-                <h1 class="main-title">Твій персональний тренер</h1>
-                <h3 class="main-sub">онлайн супровід</h3>
+            <div class="main-text">
+                <div class="text-content">
+                    <h1 class="main-title">Тренуйся зі мною</h1>
+                    <h3 class="main-sub">онлайн супровід</h3>
+                </div>
+
                 <div class="button-section">
                     <button type="button" class="but-book"> <a class="button-page" href="https://privatbank.ua/"
                             target="_blank">Записатися</a></button>
                     <button type="button" class="but-forme"><a class="button-page" href="#services">Обрати
                             послугу</a></button>
                 </div>
-
             </div>
         </div>
+        </div>
     </section>
-    <section class="numbers-section ">
+
+    <!--   <section class="numbers-section container ">
         <div class="number-section">
             <ul class="number-ul">
                 <li class="number-section-text">
                     <h3 class="number">10</h3>
-                    <p class="number-text">Years
-                        in fitness</p>
+                    <p class="number-text">Років
+                        в фітнесі</p>
                 </li>
                 <li class="number-section-text">
                     <h3 class="number">7</h3>
-                    <p class="number-text">Years
-                        teaching</p>
+                    <p class="number-text">Років
+                        викладання</p>
                 </li>
                 <li class="number-section-text">
                     <h3 class="number">100</h3>
-                    <p class="number-text">satisfied clients</p>
+                    <p class="number-text">задоволених клієнтів</p>
                 </li>
 
             </ul>
         </div>
     </section>
-    <section class="about-me" id="about">
+    <section class="about-me container" id="about ">
         <h2 class="title-about-me">Про мене</h2>
         <div class="about-me-container">
             <div class="about-me-text">
@@ -115,7 +160,7 @@
             </div>
         </div>
     </section>
-    <section class="you-will-find" id="services">
+    <section class="you-will-find container" id="services">
         <h2 class="will-find">Програми тренувань</h2>
         <ul class="team_list list">
             <li class="team_list_list">
@@ -139,11 +184,13 @@
                 <a class="portfolio-link link" href="">
                     <div class="work-img-overflow">
                         <img src="./src/img/kak-vybrat-trenera.jpg" alt="bankingapp" width="360">
-                        <p class="team_list-block-text">"Individual fitness lessons provide personalized training
-                            tailored to your needs, with expert guidance and attention.
-                            With a small group of 8-10 people in the gym, you'll enjoy a supportive environment while
-                            still receiving individualized
-                            instruction to optimize your workouts and achieve your fitness goals efficiently.
+                        <p class="team_list-block-text">"Індивідуальні уроки фітнесу забезпечують персоналізований
+                            тренувальний процес, адаптований до ваших потреб, з
+                            професійним керівництвом та увагою. У невеликій групі з 8-10 осіб у спортивному залі ви
+                            будете насолоджуватися
+                            підтримуючим середовищем, але при цьому отримувати індивідуальні інструкції для оптимізації
+                            тренувань та ефективного
+                            досягнення ваших фітнес-цілей..
                         </p>
                     </div>
                     <div class="portfolio-link_list">
@@ -155,11 +202,13 @@
                 <a class="portfolio-link link" href="">
                     <div class="work-img-overflow">
                         <img src="./src/img/kak-vybrat-trenera.jpg" alt="bankingapp" width="360">
-                        <p class="team_list-block-text">"Individual fitness lessons provide personalized training
-                            tailored to your needs, with expert guidance and attention.
-                            With a small group of 8-10 people in the gym, you'll enjoy a supportive environment while
-                            still receiving individualized
-                            instruction to optimize your workouts and achieve your fitness goals efficiently.
+                        <p class="team_list-block-text">"Індивідуальні уроки фітнесу забезпечують персоналізований
+                            тренувальний процес, адаптований до ваших потреб, з
+                            професійним керівництвом та увагою. У невеликій групі з 8-10 осіб у спортивному залі ви
+                            будете насолоджуватися
+                            підтримуючим середовищем, але при цьому отримувати індивідуальні інструкції для оптимізації
+                            тренувань та ефективного
+                            досягнення ваших фітнес-цілей..
                         </p>
                     </div>
                     <div class="portfolio-link_list">
@@ -169,7 +218,7 @@
             </li>
     </section>
 
-    <section class="register">
+    <section class="register container">
         <button class="reg-button" type="button"><a class="btn-join" target="_blank" href="https://privatbank.ua/">Ready
                 to join?</a>
         </button>
@@ -200,7 +249,7 @@
         </div>
 
     </section>
-    <section class="reviews" id="reviews">
+    <section class="reviews container" id="reviews">
         <div class="reviews-class">
             <h2 class="reviews-titile">Відгуки</h2>
             <div class="review">
@@ -242,7 +291,7 @@
 
             </div>
     </section>
-    <section class="footer" id="contact">
+    <section class="footer container" id="contact">
         <div class="footer-contact">
             <div class="header-logo-img">
                 <a class="logo" href="#"><svg class="team-block-svg" width="50" height="50">
@@ -251,7 +300,6 @@
                 </a>
             </div>
 
-            <h3 class="footer-title">Контакти:</h3>
             <ul class="contacts-cont">
                 <li><a class="contact link" href="mailto:info@devstudio.com">info@gmail.com</a></li>
                 <li><a class="contact link" href="tel:+110001111111">+38(095) 111-11-11</a></li>
@@ -272,6 +320,7 @@
 
 
 
-    </section>
+    </section>-->
+    <script type="module" src="./src/js/openModal.js"></script>
     <script src="./src/js/script.js"></script>
 </body>
