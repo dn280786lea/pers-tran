@@ -607,6 +607,9 @@ details[open] div {
   background-color: rgb(211, 205, 205);
   border-radius: 36px;
 }
+.slide:hover {
+  transform: scale(1.1);
+}
 
 .contacts-cont {
   margin: 0 auto;
