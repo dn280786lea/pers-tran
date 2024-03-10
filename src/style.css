@@ -281,9 +281,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
+  justify-content: center;
 }
 .number-section-text {
   text-align: center;
