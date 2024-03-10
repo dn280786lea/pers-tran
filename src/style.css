@@ -836,6 +836,10 @@ details[open] div {
       width: 215px;
     }
   }
+  .about-me-text {
+    width: 700px;
+    margin-right: 20px;
+  }
   .footer-contact {
     display: flex;
     transition: transform 0.5s ease-in-out;
